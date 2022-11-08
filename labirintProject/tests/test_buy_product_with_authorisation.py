@@ -11,7 +11,7 @@ from pages.cart_page import CartPage
 def test_buy_product():
     """Собираем тест"""
 
-    s = Service('F:\\sources\\chromedriver.exe')
+    s = Service('/home/nevi/Документы/resource/chromedriver')
     driver = webdriver.Chrome(service=s)
 
     mp = MainPage(driver)
